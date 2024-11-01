@@ -22,7 +22,7 @@ local cite95=r(r95)
 local cite99=r(r99) 
 
 
-cem nb_authrs(0 3.5 6.5 9.5 )   quality_c1(0 `cite25'  `cite50'  `cite75'   `cite95' `cite99' 10000000)  pubyear(#0) jounal_name_R(#0)   degree_year_coarse(#0) , treatment(`cntry')  
+cem nb_authrs(0 3.5 6.5 9.5 )   quality_c1(0 `cite25'  `cite50'  `cite75'   `cite95' `cite99' 10000000)  pubyear(#0) jounal_name_R(#0)   degree_year_coarse(#0) , treatment(China)  
 drop if cem_matched==0 
 gen double strt=real(string(pubyear,"%02.0f")+string(cem_strata,"%04.0f")) 
 format strt %15.0f 
