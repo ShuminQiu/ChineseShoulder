@@ -1,0 +1,11 @@
+STEP1: generate a list of elite chemists 
+First, we define a top chemistry journal list that includes 31 top journals (see appendix Table B2)(elite_chemistry_journals). 
+Then, Based on the author disambiguation work of Torvik and Smalheiser (2009) and its update to the 2018 version of PubMed, we can generate an author-publication dataset that assigns each article to unique authors. 
+Based on this dataset, we define the top chemists who published the top 1% of papers  during 2000-2019. 
+
+STEP2: manually collect and code CVs for elite chemists, and finally generate 751 CVs for non-US chemistry PIs 
+see file: full_chemists_CV.xlsx
+  
+STEP3: generate a dataset of PI's publications (PI are the last authors) for CEM matching
+
+see file: PIpaper_new_4match.dta
