@@ -14,5 +14,5 @@ STEP4: after matching, we need to create a citation risk set for the matched pap
   and some do not cite the source paper. 
   see file: PIpaper_risk_pureUS.dta
 
-  since Github does not allow uploading large files, we use dropbox to sharing these data: 
+Since GitHub has limitations on file size for uploads, we’re using Dropbox to share these datasets：
 https://www.dropbox.com/scl/fo/3zsjeefmbgv7pv3o3n0a6/AAGq64PH8aIW9slurFfaxyg?rlkey=0gnj1swuxv74dlpb9cevyl5ap&dl=0
